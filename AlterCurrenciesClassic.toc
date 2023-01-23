@@ -1,4 +1,4 @@
-## Interface: 30400
+## Interface: 30401
 ## Title: Alter |cFF8B008BCurrencies Classic|r
 ## Author: Velhari-LosErrantes EU
 ## Version: 0.1

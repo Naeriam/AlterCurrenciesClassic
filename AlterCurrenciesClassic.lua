@@ -43,11 +43,11 @@ function AltC.GetCurrencyAmounts()
     
     for i = 1,GetCurrencyListSize(),1 do
 
-        local currencyLink = GetCurrencyListLink(i);
+        local currencyLink = C_CurrencyInfo.GetCurrencyListLink(i);
 
         if currencyLink ~= nil then -- Ignore headers
 
-            local currencyId = tonumber(string.match(GetCurrencyListLink(i),"currency:(%d+)")) -- Get only the ID
+            local currencyId = tonumber(string.match(C_CurrencyInfo.GetCurrencyListLink(i),"currency:(%d+)")) -- Get only the ID
             local currencyStruct = C_CurrencyInfo.GetCurrencyInfoFromLink(currencyLink); 
 
             currencyName = currencyStruct.name;
@@ -137,7 +137,7 @@ end
 
 -- Add amounts below Blizzard tooltip
 hooksecurefunc(GameTooltip, "SetCurrencyToken", function(tooltip, index)
-			local id = tonumber(string.match(GetCurrencyListLink(index),"currency:(%d+)"))
+			local id = tonumber(string.match(C_CurrencyInfo.GetCurrencyListLink(index),"currency:(%d+)"))
 			AltC.AddToTooltip(tooltip, id)
 		end)
 hooksecurefunc(GameTooltip, "SetMerchantCostItem", function(tooltip, item, currency)
