@@ -2,6 +2,8 @@
 ## Title: Alter |cFF8B008BCurrencies Classic|r
 ## Author: Velhari-LosErrantes EU
 ## Version: 0.1
+## IconTexture: Interface\Icons\inv_misc_curiouscoin
+## Category: Utils by Naeriam
 ## Notes: Tracks the amount of each currency on all your alters and displays them in tooltip
 ## SavedVariables: AltC_DB
 
