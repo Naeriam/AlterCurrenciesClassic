@@ -1,4 +1,4 @@
-## Interface: 11508, 20505, 30403, 40402, 50503
+## Interface: 11508, 20505, 30405, 38001, 40402, 50504
 ## Title: Alter |cFF8B008BCurrencies Classic|r
 ## Author: Velhari-LosErrantes EU
 ## Version: 0.1
