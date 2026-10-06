@@ -1,4 +1,5 @@
 ## Interface: 11508, 20505, 30405, 38001, 40402, 50504
+## X-Curse-Project-ID: 696394
 ## Title: Alter |cFF8B008BCurrencies Classic|r
 ## Author: Velhari-LosErrantes EU
 ## Version: 0.1
